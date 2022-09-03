@@ -1,0 +1,5 @@
+C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\obj\Debug\net6.0\FuelSitesUI.csproj.AssemblyReference.cache
+C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\obj\Debug\net6.0\FuelSitesUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\obj\Debug\net6.0\FuelSitesUI.AssemblyInfoInputs.cache
+C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\obj\Debug\net6.0\FuelSitesUI.AssemblyInfo.cs
+C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\obj\Debug\net6.0\FuelSitesUI.csproj.CoreCompileInputs.cache

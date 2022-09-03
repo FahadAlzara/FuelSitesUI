@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FuelSitesUI</id>
+    <version>1.0.0</version>
+    <authors>FuelSitesUI</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-android31.0">
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.486" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.486" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-ios15.4">
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.486" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.486" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-maccatalyst15.4">
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.486" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.486" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows10.0.19041">
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.486" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.486" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-android\FuelSitesUI.runtimeconfig.json" target="lib\net6.0-android31.0\FuelSitesUI.runtimeconfig.json" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-android\FuelSitesUI.dll" target="lib\net6.0-android31.0\FuelSitesUI.dll" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-android\FuelSitesUI.xml" target="lib\net6.0-android31.0\FuelSitesUI.xml" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-ios\iossimulator-x64\FuelSitesUI.runtimeconfig.json" target="lib\net6.0-ios15.4\FuelSitesUI.runtimeconfig.json" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-ios\iossimulator-x64\FuelSitesUI.dll" target="lib\net6.0-ios15.4\FuelSitesUI.dll" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\FuelSitesUI.runtimeconfig.json" target="lib\net6.0-maccatalyst15.4\FuelSitesUI.runtimeconfig.json" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-maccatalyst\maccatalyst-x64\FuelSitesUI.dll" target="lib\net6.0-maccatalyst15.4\FuelSitesUI.dll" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FuelSitesUI.runtimeconfig.json" target="lib\net6.0-windows10.0.19041\FuelSitesUI.runtimeconfig.json" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FuelSitesUI.dll" target="lib\net6.0-windows10.0.19041\FuelSitesUI.dll" />
+    <file src="C:\Users\97150\source\repos\FuelSitesUI\FuelSitesUI\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri" target="lib\net6.0-windows10.0.19041\resources.pri" />
+  </files>
+</package>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Shell.NavBarIsVisible="False"
+             x:Class="FuelSitesUI.MainPage"
+             xmlns:viewmodel="clr-namespace:FuelSitesUI.ViewModel"
+             x:DataType="viewmodel:UserLoginViewModel">
+               
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Text="ENOC Fuel Station Finder" FontSize="28" TextColor="Black" HorizontalTextAlignment="Center" />
+            <Label Text="Login to your account" FontSize="18" TextColor="Black" HorizontalTextAlignment="Center" />
+
+            <Entry Text ="{Binding Username}" Placeholder="Username" TextColor="Black" PlaceholderColor="Gray" WidthRequest="200"/>
+            <Entry Text ="{Binding Password}" Placeholder="password" TextColor="Black" PlaceholderColor="Gray" WidthRequest="200"/>
+
+            <Button Command="{Binding Login}"  CommandParameter=""  Text="Login" TextColor="Black" BackgroundColor="Blue" CornerRadius="50" WidthRequest="150" />
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

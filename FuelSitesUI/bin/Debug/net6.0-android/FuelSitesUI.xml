@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FuelSitesUI</name>
+    </assembly>
+    <members>
+        <member name="P:FuelSitesUI.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:FuelSitesUI.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:FuelSitesUI.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:FuelSitesUI.ViewModel.BaseViewModel.title"/>
+        </member>
+    </members>
+</doc>
